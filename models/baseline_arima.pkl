@@ -1,0 +1,5 @@
+import pickle
+
+# Assuming you've trained your ARIMA model as `arima_model`
+with open('models/baseline_arima.pkl', 'wb') as f:
+    pickle.dump(arima_model, f)
